@@ -12,22 +12,21 @@
 .buttons__items {
 	width: 40px;
 	height: 40px;
-	opacity: 0.7;
 	background-size: cover;
 }
 
 /*Задание фоновых изображений кнопкам:*/
 
 .buttons__item_1 {
-	background-image: url(../img/Rectangle_left.png);
+	background-image: url(../img/Rectangle_left_opacity.svg);
 }
 
 .buttons__item_2 {
-	background-image: url(../img/Rectangle_center.png);
+	background-image: url(../img/Rectangle_center_opacity.svg);
 }
 
 .buttons__item_3 {
-	background-image: url(../img/Rectangle_right.png);
+	background-image: url(../img/Rectangle_right_opacity.svg);
 }
 
 /*Центрирование иконок на кнопках:*/
@@ -42,28 +41,16 @@
 /*Изменения при наведении:*/
 
 .buttons__item_1:hover {
-	transition: 0.3s;
-	opacity: 1;
+	transition: 0.5s;
+	background-image: url(../img/Rectangle_left.svg);
 }
 
 .buttons__item_2:hover {
-	transition: 0.3s;
-	opacity: 1;
+	transition: 0.5s;
+	background-image: url(../img/Rectangle_center.svg);
 }
 
 .buttons__item_3:hover {
-	transition: 0.3s;
-	opacity: 1;
-}
-
-/*Размеры иконок:*/
-
-.buttons__humanicon {
-	width: 13px;
-	height: 17px;
-}
-
-.buttons__blockicon {
-	width: 13px;
-	height: 17px;
+	transition: 0.5s;
+	background-image: url(../img/Rectangle_right.svg);
 }
