@@ -16,12 +16,6 @@
 	background-size: cover;
 }
 
-.buttons__items_diff {
-	width: 41px;
-	height: 42px;
-	background-size: cover;
-}
-
 /*Задание фоновых изображений кнопкам:*/
 
 .buttons__item_1 {
@@ -29,6 +23,8 @@
 }
 
 .buttons__item_2 {
+	padding-left: 1px;
+	padding-right: 1px;
 	background-image: url(../img/Rectangle_center_opacity.svg);
 }
 
@@ -50,6 +46,7 @@
 .buttons__item_1:hover {
 	transition: 0.5s;
 	background-image: url(../img/Rectangle_left.svg);
+	
 }
 
 .buttons__item_2:hover {
