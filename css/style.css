@@ -1,6 +1,7 @@
 /*Общий контейнер:*/
 
 .buttons {
+	width: 100vw;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -10,8 +11,14 @@
 /*Размеры и вид кнопок:*/
 
 .buttons__items {
-	width: 40px;
-	height: 40px;
+	width: 42px;
+	height: 42px;
+	background-size: cover;
+}
+
+.buttons__items_diff {
+	width: 41px;
+	height: 42px;
 	background-size: cover;
 }
 
